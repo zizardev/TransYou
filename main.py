@@ -3,7 +3,7 @@ from reverso_context_api import Client
 
 app = Flask(__name__)
 app.secret_key = "секретный_ключ"
-client = Client("en", "ru")
+client = Client("en", "ua")
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
